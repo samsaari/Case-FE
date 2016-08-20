@@ -1,0 +1,24 @@
+{
+  "name": "case-fe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samsaari/Case-FE.git"
+  },
+  "author": "Sampsa Saari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samsaari/Case-FE/issues"
+  },
+  "homepage": "https://github.com/samsaari/Case-FE#readme",
+  "devDependencies": {
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-sass": "^2.3.2"
+  }
+}

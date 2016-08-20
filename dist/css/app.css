@@ -1,0 +1,306 @@
+/*! Case-FE - Koodiviidakko coding challange
+ * @author Sampsa Saari
+ * @site http://www.sampsasaari.com
+ */
+body {
+  background-color: #f2f2ee; }
+
+/* MEGAKISA NAVBAR LOGO */
+#logo-wrapper {
+  display: table;
+  position: absolute;
+  margin-left: 120px;
+  line-height: 24px;
+  height: 86px;
+  width: 144px;
+  text-align: center;
+  overflow: visible; }
+  @media only screen and (max-width: 1000px) {
+    #logo-wrapper {
+      margin-left: 70px; } }
+
+/* NAVBAR */
+.navbar {
+  box-shadow: 0 2px 8px -2px #999; }
+
+#navbar {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem; }
+
+#city {
+  color: #89cbe4; }
+
+#login {
+  color: #de355c;
+  text-transform: uppercase; }
+
+/* MEGAKISA LOGO */
+#mega {
+  margin-top: 100px;
+  margin-bottom: 20px; }
+  #mega img {
+    width: 100%;
+    height: auto; }
+
+/* OFFER BANNER */
+#offer {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  /* MEDIA QUERIES */ }
+  #offer h1, #offer h2 {
+    line-height: 90%; }
+  #offer h1 {
+    font-weight: 800; }
+  #offer h2 {
+    font-weight: 600; }
+  #offer .table th, #offer .table td {
+    border-top: none !important; }
+  #offer tr:nth-child(even) {
+    background-color: #c12440; }
+  #offer tr:nth-child(odd) {
+    background-color: #e92c4d; }
+  @media only screen and (max-width: 1000px) {
+    #offer h1 {
+      font-size: 3.5rem; }
+    #offer h2 {
+      font-size: 2.0rem; }
+    #offer .table-responsive {
+      margin-right: -40px;
+      margin-top: -20px; }
+    #offer .monthAward {
+      margin-left: -60px; }
+    #offer .monthAwardImage {
+      margin-left: -70px; } }
+  @media only screen and (max-width: 768px) {
+    #offer .table-responsive {
+      margin-right: 0;
+      margin-top: 0; }
+    #offer .monthAward {
+      margin-left: 0; }
+    #offer .monthAwardImage {
+      margin-left: 0; } }
+
+/* JUMBOTRON */
+.jumbotron {
+  background: url("../images/hero.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 350px; }
+
+img {
+  width: 100%;
+  height: auto; }
+
+/* CONTENT IN JUMBOTRON */
+#title {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 600; }
+
+#megapalkinto {
+  width: 221px;
+  height: 25px; }
+
+#camera {
+  width: 269px;
+  height: 217px; }
+
+#offerButton {
+  background-color: #e92c4d;
+  border: none;
+  border-radius: 360px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: -50px; }
+
+.table-responsive {
+  font-size: 1.0rem;
+  border: none;
+  text-decoration: none; }
+
+.panel {
+  border: none; }
+
+.badge {
+  background-color: #620006; }
+
+.darkRed {
+  background-color: #c12440 !important; }
+
+/* THUMBNAILS */
+#thumbnails {
+  margin-top: 10px; }
+  #thumbnails a {
+    color: #de355c; }
+
+.thumbnail {
+  box-shadow: 0 2px 3px -2px #999; }
+
+/* MEDIA SECTION */
+#media {
+  text-decoration: none; }
+  #media a {
+    color: black; }
+  #media ul {
+    list-style-type: none; }
+  #media li {
+    padding-top: 10px; }
+
+/* FRAME FOR CARDS */
+.card {
+  width: 100%;
+  max-height: 250px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px -2px #999; }
+  .card p {
+    color: white; }
+
+.content {
+  height: 210px; }
+
+.header {
+  width: 100%;
+  height: 40px; }
+  .header h1 {
+    float: left;
+    color: #fff;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    margin-left: 15px;
+    margin-top: 12px; }
+
+/* KARPAT */
+.rss {
+  float: left;
+  width: 15px;
+  height: 15px;
+  margin-left: 20px;
+  margin-top: 12px; }
+
+.karppaLogo {
+  float: left;
+  width: 91px;
+  height: 60px;
+  margin-left: 10px;
+  margin-top: -10px; }
+
+.karppaHeader {
+  display: inline; }
+  .karppaHeader h1 {
+    float: left;
+    font-size: 1.5rem;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-top: 12px; }
+
+#rssKarpat ul a {
+  color: #fff; }
+
+#rssKarpat p {
+  font-size: 1.0rem; }
+
+/* KALEVA */
+.kalevaLogo {
+  float: left;
+  width: 97px;
+  height: 17px;
+  margin-left: 10px;
+  margin-top: 10px; }
+
+/* WEATHER */
+#weather {
+  display: inline;
+  float: left; }
+  #weather p {
+    color: black; }
+  #weather img {
+    margin-left: 20px;
+    max-width: 200px; }
+
+.weatherDetails {
+  float: right;
+  margin-left: -20px; }
+  .weatherDetails h1 {
+    font-size: 3rem;
+    font-weight: 600; }
+  .weatherDetails h2 {
+    margin-top: -5px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #6e6e6e; }
+
+.weatherComing table {
+  width: 90px;
+  margin-left: 40px;
+  margin-top: -45px; }
+
+.weatherComing tr {
+  background-color: #fff;
+  text-align: center; }
+
+.weatherComing img {
+  width: 50px; }
+
+@media only screen and (max-width: 1200px) {
+  .weatherComing table {
+    margin-left: 20px; } }
+
+@media only screen and (max-width: 640px) {
+  .weatherComing table {
+    margin-left: 40px; } }
+
+/* BACKGROUND COLORS FOR CARDS */
+.black {
+  background-color: #161616; }
+
+.darkgrey {
+  background-color: #373737; }
+
+.lightgrey {
+  background-color: #f6f6f6; }
+
+.lightblue {
+  background-color: #52b1d4; }
+
+.white {
+  background-color: #fdfdfc; }
+
+/* FOOTER */
+footer {
+  background-color: #e9e9e5; }
+  footer hr {
+    display: block;
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1px;
+    border-color: rgba(168, 168, 168, 0.4); }
+  footer a {
+    color: #de355c;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-transform: uppercase; }
+
+.footerLinks {
+  padding-top: 20px; }
+
+/* SOCIAL ICONS */
+.socialIcons {
+  float: right;
+  margin-top: 15px; }
+
+/* ADDRESS */
+.address {
+  margin-top: 30px;
+  margin-bottom: 40px; }
+  .address p {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.0rem; }

@@ -1,0 +1,33 @@
+/* MEGAKISA NAVBAR LOGO */
+#logo-wrapper {
+  display: table;
+  position: absolute;
+  margin-left: 120px;
+  line-height: 24px;
+  height: 86px;
+  width: 144px;
+  text-align: center;
+  overflow: visible;
+
+  @media only screen and (max-width : 1000px) {
+    margin-left: 70px;
+  }
+}
+
+/* NAVBAR */
+.navbar {
+  box-shadow: 0 2px 8px -2px #999;
+}
+#navbar {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+#city {
+  color: #89cbe4;
+}
+
+#login {
+  color: #de355c;
+  text-transform: uppercase;
+}

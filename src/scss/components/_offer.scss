@@ -1,0 +1,117 @@
+/* OFFER BANNER */
+#offer {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+
+  h1, h2 {
+    line-height: 90%;
+  }
+
+  h1 {
+    font-weight: 800;
+  }
+  h2 {
+    font-weight: 600;
+  }
+
+  .table th, .table td {
+       border-top: none !important;
+   }
+
+   tr:nth-child(even) {
+     background-color: #c12440;
+   }
+
+   tr:nth-child(odd) {
+     background-color: #e92c4d;
+   }
+  /* MEDIA QUERIES */
+  @media only screen and (max-width : 1000px) {
+    h1 {
+      font-size: 3.5rem;
+    }
+    h2 {
+      font-size: 2.0rem;
+    }
+    .table-responsive {
+      margin-right: -40px;
+      margin-top: -20px;
+    }
+    .monthAward {
+      margin-left: -60px;
+    }
+    .monthAwardImage {
+      margin-left: -70px;
+    }
+  }
+  @media only screen and (max-width : 768px) {
+    .table-responsive {
+      margin-right: 0;
+      margin-top: 0;
+    }
+    .monthAward {
+      margin-left: 0;
+    }
+    .monthAwardImage {
+      margin-left: 0;
+    }
+  }
+}
+/* JUMBOTRON */
+.jumbotron {
+  background: url("../images/hero.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 350px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* CONTENT IN JUMBOTRON */
+#title {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+#megapalkinto {
+  width:221px;
+  height: 25px;
+}
+
+#camera {
+  width: 269px;
+  height: 217px;
+}
+
+#offerButton {
+  background-color: #e92c4d;
+  border: none;
+  border-radius: 360px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: -50px;
+}
+
+.table-responsive {
+  font-size: 1.0rem;
+  border: none;
+  text-decoration: none;
+}
+
+.panel {
+  border: none;
+}
+
+.badge {
+  background-color: #620006;
+}
+
+.darkRed {
+ background-color: #c12440 !important;
+}
